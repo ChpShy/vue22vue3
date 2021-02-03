@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "description": "transform vue2 code to vue3 code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChpShy/vue22vue3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChpShy/vue22vue3/issues"
+  },
+  "homepage": "https://github.com/ChpShy/vue22vue3#readme"
+}
