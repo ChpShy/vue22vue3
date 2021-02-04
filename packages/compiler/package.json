@@ -1,14 +1,12 @@
 {
-  "name": "tv3",
+  "name": "@tv3/compiler",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
-  "bin": {
-    "tv3": "bin/index.js"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC"
 }

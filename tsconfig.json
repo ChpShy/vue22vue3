@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+    //   "outDir": "dist",
+      "sourceMap": false,
+      "target": "es6",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "allowJs": false,
+      "strict": true,
+      "noUnusedLocals": true,
+      "experimentalDecorators": true,
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
+      "removeComments": false,
+      "lib": ["esnext", "es2017", "es7", "es6", "dom"],
+      "rootDir": ".",
+      "paths": {
+        "@tv3/*": ["packages/*/src"],
+        "tv3": ["packages/tv3/src"]
+      }
+    },
+    "include": [
+      "packages"
+    ]
+  }
+  
