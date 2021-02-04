@@ -10,5 +10,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@tv3/compiler": "0.0.1"
+  },
+  "devDependencies": {
+    "commander": "^7.0.0"
+  }
 }

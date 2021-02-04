@@ -5,7 +5,7 @@
   "description": "transform vue2 code to vue3 code",
   "main": "index.js",
   "scripts": {
-    "dev": "tsc && cd packages/tv3 && npm link && tv3",
+    "dev": "tsc && lerna link && cd packages/tv3 && npm link && tv3",
     "bootstrap": "lerna bootstrap",
     "link": "lerna link",
     "clean": "lerna clean",

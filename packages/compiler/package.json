@@ -2,11 +2,27 @@
   "name": "@tv3/compiler",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": "chen <786156072@qq.com>",
+  "homepage": "https://github.com/ChpShy/vue22vue3/tree/master/packages/tv3-compiler#readme",
+  "license": "ISC",
+  "main": "src/index.js",
+  "directories": {
+    "src": "src"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "registry": "http://npm.idcvdian.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChpShy/vue22vue3.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/ChpShy/vue22vue3/issues"
+  }
 }
